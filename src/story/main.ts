@@ -17,6 +17,7 @@ const transcript = document.querySelector<HTMLElement>("#transcript");
 const chapterLabel = document.querySelector<HTMLElement>("#chapter-label");
 const progressBar = document.querySelector<HTMLElement>("#progress-bar");
 const hint = document.querySelector<HTMLElement>("#hint");
+const endCredit = document.querySelector<HTMLElement>("#end-credit");
 const hud = document.querySelector<HTMLElement>("#hud");
 const matchProgress = document.querySelector<HTMLElement>("#match-progress");
 const fallback = document.querySelector<HTMLElement>("#fallback-story");
@@ -125,7 +126,8 @@ function updateCues(time: number, direction: -1 | 0 | 1): void {
 }
 
 function updateInterface(time: number): void {
-  const { cue, index } = captionAt(time);
+  const { cue, index, progress } = captionAt(time);
+  endCredit?.classList.toggle("visible", started && STORY[index]!.id === "close" && progress >= .72);
   chapterLabel!.textContent = STORY[index]!.title;
   progressBar!.style.transform = `scaleX(${time / TOTAL_UNITS})`;
   matchProgress?.style.setProperty("--burn", String(time / TOTAL_UNITS));
