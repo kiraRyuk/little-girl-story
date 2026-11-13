@@ -1,0 +1,61 @@
+---
+import "../styles/global.css";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#080a0c" />
+    <meta name="description" content="An independently illustrated adaptation of Andersen’s The Little Match Girl: a snowy New Year’s Eve, four matches, and visions of warmth." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet" />
+    <title>The Little Match Girl</title>
+  </head>
+  <body>
+    <canvas id="view" aria-hidden="true"></canvas>
+    <div id="scroll" aria-hidden="true"></div>
+
+    <main class="experience" id="experience">
+      <section class="gate" id="gate" aria-labelledby="story-title">
+        <div class="gate-card">
+          <p class="eyebrow">H. C. Andersen · 1845</p>
+          <h1 id="story-title">The Little Match Girl</h1>
+          <p class="intro-copy">On New Year’s Eve, a barefoot girl sells matches in the snow. Each small flame reveals a world beyond the cold.</p>
+          <p class="instruction">Scroll to turn the pages at your own pace. Sound adds a quiet winter atmosphere.</p>
+          <div class="entry-actions">
+            <button class="enter" id="enter" disabled>Open the book</button>
+            <button class="quiet" id="enter-quiet" disabled>Continue without sound</button>
+          </div>
+        </div>
+      </section>
+
+      <header class="hud" id="hud" aria-hidden="true">
+        <p class="hud-title">THE LITTLE MATCH GIRL <span>·</span> <b id="chapter-label">The book</b></p>
+        <div class="progress-track"><i id="progress-bar"></i></div>
+      </header>
+
+      <div class="caption-wrap">
+        <p class="caption" id="captions" aria-live="polite" aria-atomic="true"></p>
+      </div>
+      <p class="scroll-hint" id="hint" aria-hidden="true">Scroll to continue</p>
+      <button class="sound" id="sound" type="button" aria-pressed="false" aria-label="Turn sound on">Sound off <span class="sound-dot"></span></button>
+      <p class="audio-notice" id="audio-notice" role="status" aria-live="polite"></p>
+      <div class="match-progress" id="match-progress" aria-hidden="true"><i class="match-stick"></i><i class="match-ash"></i><i class="match-flame"></i></div>
+
+      <div class="fallback-story" id="fallback-story" aria-hidden="true">
+        <h2>The Little Match Girl</h2>
+        <p>A poor girl sells matches in the snow on New Year’s Eve. Nobody buys one. Afraid to return home without money, she shelters between two houses.</p>
+        <p>Her matches show her an iron stove, a roast goose, a Christmas tree, and her beloved grandmother. She lights the whole bundle to keep her grandmother near, and they rise together beyond cold and hunger.</p>
+        <p>In the morning, the girl is found frozen to death, smiling. The passersby never know the beautiful things she saw.</p>
+      </div>
+      <div class="sr-only" id="transcript" aria-label="Story transcript"></div>
+    </main>
+
+    <script>
+      import "../story/main";
+    </script>
+  </body>
+</html>

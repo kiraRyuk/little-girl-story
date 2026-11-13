@@ -1,0 +1,100 @@
+{
+  "engine": "eSpeak NG 1.52.0 (official Arch 1.52.0-1)",
+  "voice": "en-gb",
+  "wordsPerMinute": 145,
+  "pitch": 42,
+  "amplitude": 100,
+  "format": "WAV PCM signed 16-bit mono, 22050 Hz",
+  "source": "Independent English adaptation of Hans Christian Andersen’s public-domain 1845 story.",
+  "syntheticVoiceDisclosure": "This narration is generated with a formant synthesizer; it is not a human recording.",
+  "tracks": [
+    {
+      "id": "book",
+      "file": "book.wav",
+      "seconds": 4.404,
+      "bytes": 194256,
+      "sha256": "147d589ecf2008a6a552aba4b282e70add54dc2d9f97807180a53d44ddf7bdd2",
+      "text": "The Little Match Girl. A tale by Hans Christian Andersen."
+    },
+    {
+      "id": "city",
+      "file": "city.wav",
+      "seconds": 6.672,
+      "bytes": 294300,
+      "sha256": "ac5fa238edb499da7339602da6f48a292aba8df4db80ef6c5345991fe61ddba7",
+      "text": "Snow fell as darkness settled over the town. It was New Year’s Eve, the last evening of the year."
+    },
+    {
+      "id": "street",
+      "file": "street.wav",
+      "seconds": 18.224,
+      "bytes": 803740,
+      "sha256": "0705f547df190e3409dc94cbb2c3589523b112f9dd279a041deec13b378aafb1",
+      "text": "A poor little girl walked through the streets, bareheaded and barefoot. She had worn her mother’s slippers, but they were much too large. Two carriages rushed past. As she ran across the road, she lost both slippers. One vanished in the snow. A boy ran away with the other."
+    },
+    {
+      "id": "matches",
+      "file": "matches.wav",
+      "seconds": 9.351,
+      "bytes": 412410,
+      "sha256": "82c5ec09dfd4bb5757e4252659a4e1215ce99874bcd60c066bbb619d625bbb87",
+      "text": "She carried matches in her apron and held a small bundle in her hand. Nobody had bought a match all day. Nobody had given her a penny."
+    },
+    {
+      "id": "corner",
+      "file": "corner.wav",
+      "seconds": 17.272,
+      "bytes": 761752,
+      "sha256": "7d724c18c21d213029cb4f5473caa5628a85ab75ada6d06e480beecde0b84045",
+      "text": "Light shone from the windows. The smell of roast goose drifted into the street. She huddled between two houses. She dared not go home without money; her father would beat her. Her hands were numb. Perhaps one little match could warm her fingers."
+    },
+    {
+      "id": "stove",
+      "file": "stove.wav",
+      "seconds": 15.067,
+      "bytes": 664478,
+      "sha256": "db800bf0a9b8097d238b5a63c6f5354687bf230f99d61ad502eb436ceff6f8f9",
+      "text": "She struck a match. In its light, a great iron stove appeared. The fire burned beautifully. She stretched out her feet to warm them. The flame went out. The stove vanished. Only the burnt match remained."
+    },
+    {
+      "id": "goose",
+      "file": "goose.wav",
+      "seconds": 17.018,
+      "bytes": 750540,
+      "sha256": "b9db6a11b1a6c61fe1f77f7923ac4be70bf5277c4c81e433322ebade68b81ca7",
+      "text": "She struck another match. The wall became as thin as a veil. Beyond it stood a table laid with fine china and a steaming roast goose. The goose jumped from its dish and waddled toward her. Then the match went out, and the wall was cold again."
+    },
+    {
+      "id": "tree",
+      "file": "tree.wav",
+      "seconds": 18.765,
+      "bytes": 827564,
+      "sha256": "e3ef0119e8bb3540d19c208a2f681cb626b0c535ad5deb3779783ef7aea4e1ea",
+      "text": "A third match showed her a magnificent Christmas tree, lit with thousands of candles. She reached toward it. The match faded, and its candles rose into the sky as stars. A star fell. Her grandmother had told her: when a star falls, a soul goes up to God."
+    },
+    {
+      "id": "grandmother",
+      "file": "grandmother.wav",
+      "seconds": 25.083,
+      "bytes": 1106190,
+      "sha256": "2713b352b76021598da623f80e92b4a463ee5111144e6ee6656ac18f8080c44f",
+      "text": "In the fourth match’s glow stood her grandmother, the only person who had ever been kind to her. “Grandmother, take me with you! You will disappear when the match goes out!” She struck the whole bundle to keep her grandmother there. Her grandmother lifted her into her arms. They rose together in brightness and joy, to where there was no cold, no hunger, and no fear."
+    },
+    {
+      "id": "morning",
+      "file": "morning.wav",
+      "seconds": 20.403,
+      "bytes": 899812,
+      "sha256": "60dc0c091a6fc675f6c45f5dd0ca93732271eb55562120ad4abfea9367dd3129",
+      "text": "Morning found the little girl in the corner, her cheeks rosy and a smile on her lips. She had frozen to death. “She was trying to warm herself,” the passersby said, seeing the burnt matches. None of them knew what beautiful things she had seen, or the joy in which she had gone with her grandmother."
+    },
+    {
+      "id": "close",
+      "file": "close.wav",
+      "seconds": 6.477,
+      "bytes": 285662,
+      "sha256": "c9904b1975784f016484c89561c95d33b04d60d3469d291695be9e479dfa739d",
+      "text": "The Little Match Girl. Hans Christian Andersen, 1845."
+    }
+  ]
+}

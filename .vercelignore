@@ -1,0 +1,17 @@
+# Recreated by Vercel's cloud build
+node_modules/
+dist/
+.astro/
+.git/
+.vercel/
+
+# Local diagnostics, test fixtures and speech-engine helpers
+tests/
+docs/
+scripts/
+*.log
+.env
+.env.*
+
+# Preserved eSpeak drafts; narration is currently disabled
+src/assets/narration/
