@@ -127,6 +127,7 @@ function updateCues(time: number, direction: -1 | 0 | 1): void {
 
 function updateInterface(time: number): void {
   const { cue, index, progress } = captionAt(time);
+  captions!.classList.toggle("intro-caption", STORY[index]!.id === "book");
   endCredit?.classList.toggle("visible", started && STORY[index]!.id === "close" && progress >= .72);
   chapterLabel!.textContent = STORY[index]!.title;
   progressBar!.style.transform = `scaleX(${time / TOTAL_UNITS})`;
