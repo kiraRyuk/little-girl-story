@@ -1,4 +1,6 @@
-# The Little Match Girl — independent reconstruction
+# little-girl-story
+
+**The Little Match Girl — independent reconstruction**
 
 An original, scroll-driven winter picture book built with Astro, Vite, Three.js r180, WebGL2, and custom GLSL. Its illustrations are generated locally from Canvas 2D drawing code; it does not use the reference site's artwork, narration, or source code.
 
